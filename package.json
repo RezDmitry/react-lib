@@ -29,7 +29,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "pub": "yarn build && npm version patch && npm publish"
+    "pub": "tsc && vite build && npm version patch && npm publish"
   },
   "dependencies": {
     "react": "^18.2.0",
